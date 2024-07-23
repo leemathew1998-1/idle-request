@@ -1,0 +1,22 @@
+{
+  "name": "idle-request",
+  "private": false,
+  "version": "0.0.7",
+  "type": "module",
+  "types": "index.d.ts",
+  "main": "dist/idle-request.cjs",
+  "module": "dist/idle-request.js",
+  "keywords": ["idle request"],
+  "author": {"name": "phoenix_wei","email": "phoenix_wei@resourcepro.com.cn"},
+  "description": "A package for managing idle requests in the browser environment, intercepting fetch and XMLHttpRequest calls to track performance metrics and handle concurrent requests.",
+  "license":"MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
